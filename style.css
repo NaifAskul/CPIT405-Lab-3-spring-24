@@ -1,0 +1,29 @@
+.image-preview img{
+
+width: 150px;
+height: 250px;
+
+border-left:solid 30px #ffefd5 ;
+border-top:solid 30px skyblue ;
+border-right:solid 30px lightpink ;
+border-bottom:solid 30px lightgreen ;
+
+}
+
+p > span { color: red; }
+#header span { color: pink; }
+span { color: green; }
+#header *:last-child { color: orange; }
+#header span:first-child:hover { color: blue; }
+
+table {
+
+border: 1px solid black;
+
+}
+
+th, td, tr{
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    padding: 20px;
+}
